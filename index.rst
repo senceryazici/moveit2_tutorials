@@ -10,10 +10,19 @@ MoveIt 2 is the robotics manipulation platform for ROS 2, and incorporates the l
 
 In these tutorials, the Franka Emika Panda robot is used as a quick-start demo.
 
+<<<<<<< HEAD
 Getting Started with MoveIt and RViz
 -------------------------------------
 .. toctree::
    :maxdepth: 1
+=======
+* :doc:`/doc/tutorials/tutorials` will walk you through creating your first project with MoveIt.
+* :doc:`/doc/how_to_guides/how_to_guides` answers the question "How to do X with MoveIt?"
+* :doc:`/doc/concepts/concepts` discusses the design of MoveIt.
+* :doc:`/doc/how_to_contribute/how_to_contribute` is a place to learn about making changes to MoveIt and this website.
+* :doc:`/doc/examples/examples` contains other useful pages that have not been adapted to the new layout of this site or are not yet ported from ROS 1.
+* :doc:`/doc/api/api` will redirect you to a reference API page.
+>>>>>>> f680cbe (Api Documentation CI (#310))
 
    doc/getting_started/getting_started
    doc/quickstart_in_rviz/quickstart_in_rviz_tutorial
@@ -25,6 +34,7 @@ The simplest way to use MoveIt through scripting is using the ``move_group_inter
 .. toctree::
    :maxdepth: 1
 
+<<<<<<< HEAD
    doc/move_group_interface/move_group_interface_tutorial
 
 Using MoveIt Directly Through the C++ API
@@ -59,6 +69,14 @@ Miscellaneous
    :maxdepth: 1
 
    doc/realtime_servo/realtime_servo_tutorial
+=======
+   doc/tutorials/tutorials
+   doc/how_to_guides/how_to_guides
+   doc/concepts/concepts
+   doc/how_to_contribute/how_to_contribute
+   doc/examples/examples
+   doc/api/api
+>>>>>>> f680cbe (Api Documentation CI (#310))
 
 Attribution
 -----------
